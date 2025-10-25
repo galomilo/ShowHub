@@ -6,7 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="./banner/banner.build.js"></script>
+    <!-- Cargar la librería desde GitHub vía jsDelivr -->
+    <script src="https://cdn.jsdelivr.net/gh/galomilo/ShowHub@latest/banner/banner.build.js"></script>
+    
     <script>
         const banner = new ShowHubLib.GitBanner({ username: "galomilo" });
         banner.show();
